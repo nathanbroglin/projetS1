@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -6,9 +6,30 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>accueil</title>
+
+    <link rel="stylesheet" href="css/lib/normalize.css">
+    <link rel="stylesheet" href="css/mescss/typography.css">
+    <link rel="stylesheet" href="css/mescss/menu.css">
+    <link rel="stylesheet" href="css/mescss/styles-graphique.css">
 </head>
 <body>
+<header>
+  <h3>The Shadow of Sociability</h3>
+    <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toggle-bar"></div>
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="">Accueil</a></li>
+            <li><a href="">La création de Facebook</a></li>
+            <li><a href="">Une pollution invisible</a></li>
+            <li><a href="">Des alternatives pour l'environnement</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
 
+</header>
+<main>
 <img src="img/fond1.jpg">
 <h1>The Shadow of Sociability</h1>
 
@@ -49,7 +70,7 @@ Les data centers, indispensables pour Facebook mais plus que destructeurs pour l
 Des solutions éco-responsables pour un meilleur avenir.
 
 </nav>
-
+</main>
 <footer>
     Nathan Broglin A1
     Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard

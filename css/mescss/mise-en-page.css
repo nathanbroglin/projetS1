@@ -1,0 +1,78 @@
+header>h3{
+    margin-left:80px;
+    margin-top:15px;
+    position: absolute;
+
+
+}
+p{
+    width:330px;
+}
+
+p,h3,h2{
+    margin-left: 25px;
+    margin-right:25px;
+
+}
+
+.galerie>li{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top:20px;
+
+}
+
+.autres-projets>li{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top:20px;
+    width : 100px;
+    text-align: center;
+}
+
+.autres-projets{
+    margin:0;
+}
+
+.pictures{
+    display: inline-block;
+}
+
+footer>p:last-of-type{
+    text-align: center;
+}
+
+footer>p:first-of-type{
+    width:10px;
+}
+
+nav>p{
+    text-align: center;
+}
+
+h1{
+    margin-top:-100px;
+}
+
+nav>h3#bouton1>a,h3#bouton2>a{
+    margin-left:40px;
+    padding-left: 40px;
+    padding-right:40px;
+}
+
+nav>p{
+
+    margin-top:30px;
+}
+
+.fleche-gauche{
+    margin-left:20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.fleche-droite{
+    margin-left:30px;
+}
+
+

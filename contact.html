@@ -6,38 +6,46 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>contact</title>
+
+    <link rel="stylesheet" href="css/lib/normalize.css">
+    <link rel="stylesheet" href="css/mescss/typography.css">
+    <link rel="stylesheet" href="css/mescss/menu.css">
+    <link rel="stylesheet" href="css/mescss/styles-graphique.css">
+    <link rel="stylesheet" href="css/mescss/mise-en-page.css">
 </head>
 <body>
 <header>
+    <img src="img/logo.png" id="logo">
     <h3>The Shadow of Sociability</h3>
     <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
         <div class="nav-toggle-bar"></div>
     </div>
     <nav class="menu">
         <ul>
-            <li><a href="">Accueil</a></li>
-            <li><a href="">La création de Facebook</a></li>
-            <li><a href="">Une pollution invisible</a></li>
-            <li><a href="">Des alternatives pour l'environnement</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="La-création-de-facebook.html">La création de Facebook</a></li>
+            <li><a href="Une-pollution-invisible.html">Une pollution invisible</a></li>
+            <li><a href="Des-alternatives-pour-l'environnement.html">Des alternatives pour l'environnement</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 
 </header>
 <main>
-<img src="img/contact.jpg">
+<img src="img/contact.jpg" id="contact">
 <h3>A propos</h3>
 <p>Je suis étudiant en 1ère année de Multimédia et métiers de l’Internet à Montbéliard. J’ai réalisé ce site pour mon projet individuel de premier semestre. Le sujet étant la face caché du numérique, j’ai chois de me concentrer sur le réseau social Facebook. En effet, Facebook est un des réseaux sociaux les plus importants sur le Web et rejette donc une pollution numérique conséquente. Comme nous devions choisir un film, j’ai chosi The Social Network car il est le film le plus en lien avec mon sujet.</p>
-<h3>Formulaire</h3>
+<h2>Formulaire</h2>
 Nom
 Prénom
 Adresse mail
 Votre message
-<h3>Envoyer</h3>
+<h2>Envoyer</h2>
 <h3> Les Autres projets</h3>
 <p>Si le projet vous a plu, voici plusieurs projets similaires au thème de la pollution numérique</p>
-<nav>
-    <ul>
+
+    <nav>
+    <ul class="autres-projets">
     <li><img src="img/galerie6.jpg">Cin&Science Felix Allaire</li>
     <li><img src="img/ghost.jpg">Hyperconnexion Tania André</li>
     <li><img src="img/galerie3.jpg">Black data Alexandre Antoine</li>
@@ -46,17 +54,18 @@ Votre message
     <li><img src="img/park.jpg">South park dénonce Amazon Nathan Baumann</li>
     <li><img src="img/code.jpg">Data code Nina Bellimo</li>
     <li><img src="img/girlboss.jpg">Polluting girl Marine Beurier</li>
-    <li><img src="img/oeil.jpg">Pollution cachée des datas centers Raphaël Bonin</li>
+    <li><img src="img/oeil.jpg" alt="">Pollution cachée des datas centers Raphaël Bonin</li>
     <li><img src="img/galerie5.jpg">Data runner Mathis Botton</li>
     <li><img src="img/hacker.jpg">Centhack Eva Bourquin</li>
     </ul>
-</nav>
+   </nav>
+
 </main>
 <footer>
-    Nathan Broglin A1
-    Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard
+    <p>Nathan Broglin A1</p>
+    <p> Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
 
-    <img src="img/logoMMI.png">
+    <img src="img/logoMMI.png" id="MMI">
 </footer>
 
 </body>

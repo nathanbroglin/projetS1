@@ -1,3 +1,63 @@
-body{
-    font-family: Roboto;
+p{
+    font-family: Roboto, sans-serif;
+    font-size:14px;
+    color:white;
+    line-height: 19px;
+}
+
+h3,h2,h1,h3>a{
+    font-family: Barlow  Medium, sans-serif;
+    color:#37A0F5;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.autres-projets>li {
+    color: white;
+    list-style-type: none;
+}
+
+header>h3{
+    font-size:18px;
+    text-align: center;
+    width:127px;
+}
+
+h2{
+    font-size:25px;
+}
+
+h3{
+    font-size:20px;
+}
+.menu{
+    font-family:Barlow  Medium, sans-serif ;
+    text-transform: uppercase;
+}
+
+h1{
+    width:390px;
+    font-size:45px ;
+    text-align: center;
+}
+
+.autres-projets>li{
+    font-family:Roboto, sans-serif ;
+    font-size:12px;
+}
+
+figcaption{
+    color:white;
+    text-align:center;
+    font-family:Roboto, sans-serif;
+    font-size:12px;
+}
+
+.fleche{
+    font-family:Roboto, sans-serif;
+    font-size:12px;
 }

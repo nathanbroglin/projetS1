@@ -11,71 +11,79 @@
     <link rel="stylesheet" href="css/mescss/typography.css">
     <link rel="stylesheet" href="css/mescss/menu.css">
     <link rel="stylesheet" href="css/mescss/styles-graphique.css">
+    <link rel="stylesheet" href="css/mescss/mise-en-page.css">
 </head>
 <body>
 <header>
+    <img src="img/logo.png" id="logo">
   <h3>The Shadow of Sociability</h3>
     <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
         <div class="nav-toggle-bar"></div>
     </div>
     <nav class="menu">
         <ul>
-            <li><a href="">Accueil</a></li>
-            <li><a href="">La création de Facebook</a></li>
-            <li><a href="">Une pollution invisible</a></li>
-            <li><a href="">Des alternatives pour l'environnement</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="La-création-de-facebook.html">La création de Facebook</a></li>
+            <li><a href="Une-pollution-invisible.html">Une pollution invisible</a></li>
+            <li><a href="Des-alternatives-pour-l'environnement.html">Des alternatives pour l'environnement</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 
 </header>
 <main>
-<img src="img/fond1.jpg">
-<h1>The Shadow of Sociability</h1>
+    <div style="position:relative; height:400px">
+        <div style="position:absolute;z-index:1">
+            <img src="img/fond1.jpg">
+        </div>
+        <div style="position:absolute;top:360px; width:600px; height:400px; z-index:2;font-size:200%">
+            <h1> The Shadow of Sociability </h1>
+        </div>
+    </div>
 
-Il n'a jamais été aussi destructeur de se faire des amis
+    <p class="tagline">Il n'a jamais été aussi destructeur de se faire des amis</p>
 
-<img src="img/fond2.jpg">
-
+<img src="img/fond2.jpg" id="fond2">
+<div class="intro">
 <h2>Introduction</h2>
 
-Internet a bouleversé à jamais notre génération. Il est rapidement devenu l’un des médias les plus importants de notre société.
+    <p>Internet a bouleversé à jamais notre génération. Il est rapidement devenu l’un des médias les plus importants de notre société.</p>
 
-La  création des réseaux sociaux a su jouer un rôle majeur dans le développement d’Internet.Néanmoins, même si notre société a été métamorphosée par Internet, une  problématique se pose et fait débat : l’écologie.
+    <p>La  création des réseaux sociaux a su jouer un rôle majeur dans le développement d’Internet.Néanmoins, même si notre société a été métamorphosée par Internet, une  problématique se pose et fait débat : l’écologie.</p>
 
-Même si le progrès semble être la clé de demain, la question sur l’environnement est omniprésente. Sur ce point là, Internet et les réseaux sociaux semblent être un obstacle. Un mal bien qu’invisible sévit : la pollution numérique.
+    <p>Même si le progrès semble être la clé de demain, la question sur l’environnement est omniprésente. Sur ce point là, Internet et les réseaux sociaux semblent être un obstacle. Un mal bien qu’invisible sévit : la pollution numérique.</p>
 
-<q>"2% de la pollution lié au Web représente toute la pollution liée au trafic aérien mondial."</q>
+    <p><q>"2% de la pollution lié au Web représente toute la pollution liée au trafic aérien mondial."</q></p>
 
-Ses pollutions n’épargnent pas les réseaux sociaux. Leurs interactions sur le Web génèrent beaucoup de déchets, notamment à cause des data centers. Parmi ces réseaux, il y a le géant du Web : Facebook
+    <p>Ses pollutions n’épargnent pas les réseaux sociaux. Leurs interactions sur le Web génèrent beaucoup de déchets, notamment à cause des data centers. Parmi ces réseaux, il y a le géant du Web : Facebook</p>
 
 <h2>Consultez nos articles</h2>
-
+</div>
 <nav>
 
-<img src="img/vignette1.jpg">
+<img src="img/vignette1.jpg" id="vignette1">
 
-    <h3><a href="article1.html">La création de Facebook</a></h3>
+    <h3 id="bouton1"><a href="La-création-de-facebook.html">La création de Facebook</a></h3>
 
-Facebook, l’ascension d’un géant du Web et d’un réseau culte de notre génération.
+    <p>Facebook, l’ascension d’un géant du Web et d’un réseau culte de notre génération.</p>
 
-<img src="img/vignette2.jpg">
-    <h3><a href="article2.html">Une pollution invisible</a></h3>
+<img src="img/vignette2.jpg" id="vignette2">
+    <h3 id="bouton2"><a href="Une-pollution-invisible.html">Une pollution invisible</a></h3>
 
-Les data centers, indispensables pour Facebook mais plus que destructeurs pour la planète.
+    <p>Les data centers, indispensables pour Facebook mais plus que destructeurs pour la planète.</p>
 
-<img src="img/vignette3.jpg">
-    <h3><a href="article3.html">Des alternatives pour l'environnement</a></h3>
+<img src="img/vignette3.jpg"id="vignette3">
+    <h3><a href="Des-alternatives-pour-l'environnement.html">Des alternatives pour l'environnement</a></h3>
 
-Des solutions éco-responsables pour un meilleur avenir.
+    <p>Des solutions éco-responsables pour un meilleur avenir.</p>
 
 </nav>
 </main>
 <footer>
-    Nathan Broglin A1
-    Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard
+    <p>Nathan Broglin A1</p>
+    <p> Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
 
-    <img src="img/logoMMI.png">
+    <img src="img/logoMMI.png" id="MMI">
 </footer>
 
 

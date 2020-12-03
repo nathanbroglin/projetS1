@@ -60,6 +60,7 @@ background:radial-gradient(#4D5563,#010314) ;
 .menu-open,
 .menu-open body{
     overflow:hidden;
+
 }
 
 .menu ul{
@@ -95,4 +96,5 @@ background:radial-gradient(#4D5563,#010314) ;
 
 .menu{
     text-align: center;
+
 }

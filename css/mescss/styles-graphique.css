@@ -2,7 +2,6 @@
 body{
     background-color: #010314;
 }
-
 header{
     background: radial-gradient(#0e0052 , #010314 );
     height: 75px;
@@ -11,7 +10,6 @@ header{
 footer{
     background-color: #4D5563;
 }
-
 h3>a{
     background-color: #0e0052;
     padding-top:20px;
@@ -19,144 +17,56 @@ h3>a{
     text-align: center;
     vertical-align: center;
 }
-
 h2{
     background:linear-gradient(90deg,#0e0052,#010314);
     padding:10px;
-
-
 }
-/*Dimension des images*/
-
+/*Paramétrages des images des images*/
 img#logo{
-    width:44px;
-    height:44px;
     position: absolute;
     margin-top: 15px;
     margin-left: 10px;
-}
-
-img#vignette1{
-    width:386px;
-    height:257px;
-
-}
-
-img#vignette2{
-    width:364px;
-    height:242px;
-
-}
-img#vignette3{
-    width:384px;
-    height:201px;
-
+    mix-blend-mode: exclusion;
 }
 img#fond1{
-    width:460px;
-    height:700px;
     position:relative;
     mix-blend-mode: difference;
-
 }
 img#fond2{
-    width:386px;
-    height:258px;
     margin-bottom: 0;
 }
-img#article1\.1{
-    width:372px;
-    height:237px;
-}
-img#article1\.2{
-     width:374px;
-     height:244px;
- }
-
-img#article2\.1{
-    width:376px;
-    height:165px;
-}
 img#article2\.2{
-    width:212px;
-    height:120px;
+    float:left;
 }
-img#article2\.3 {
-    width: 181px;
-    height: 120px;
-}
-
-img#article2\.4 {
-    width: 408px;
-    height: 230px;
-}
-img#article3\.1 {
-    width: 375px;
-    height: 250px;
-}
-
-img#article3\.2 {
-    width: 375px;
-    height: 225px;
-}
-
-img#article3\.3 {
-    width: 382px;
-    height: 252px;
-}
-img#contact{
-    width:450px;
-    height:109px;
-}
-
-
 .autres-projets>li>img{
     width:92px;
     height:135px;
 }
-
 .galerie>li>img{
     width:100px;
     height:144px;
-
 }
-
 img#MMI{
     width:75px;
     height:75px;
     margin-left:150px;
-
 }
-
-.fleche>img{
-    width: 35px;
-    height: 35px;
-    position: relative;
-}
-
 .galerie>ul>li{
    list-style-type: none;
-
 }
 .galerie{
     background-color: #0e0052;
 }
-
-
-
 .extrait{
     background-color: #0e0052;
 }
-
 .autres-projets{
     background-color: #0e0052;
 
 }
-
 .fleche>a{
     color:white;
 }
-
 .tagline{
     background-color: #4D5563;
     padding:40px;
@@ -166,21 +76,23 @@ img#MMI{
     text-align: center;
 
 }
-
 .intro{
     margin-top:0;
     border-left: 20px solid #0e0052;
-
-
 }
-
 .intro>h2{
     padding-left:20px;
     position: relative;
+    margin-left:0;
 }
-
+.intro>q{
+    border-left: 10px solid #0e0052;
+}
 p>a{
     color:#37A0F5;
 }
-
+.fleche>img{
+    width:34px;
+    height:34px;
+}
 

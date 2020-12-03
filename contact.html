@@ -12,10 +12,11 @@
     <link rel="stylesheet" href="css/mescss/menu.css">
     <link rel="stylesheet" href="css/mescss/styles-graphique.css">
     <link rel="stylesheet" href="css/mescss/mise-en-page.css">
+    <link rel="stylesheet" href="css/mescss/formulaire.css">
 </head>
 <body>
 <header>
-    <img src="img/logo.png" id="logo">
+    <img src="img/all/logo.png" id="logo"  width="44"; height="44";>
     <h3>The Shadow of Sociability</h3>
     <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
         <div class="nav-toggle-bar"></div>
@@ -32,31 +33,41 @@
 
 </header>
 <main>
-<img src="img/contact.jpg" id="contact">
+<img src="img/contact/contact.jpg" id="contact"width="450" height="109">
 <h3>A propos</h3>
 <p>Je suis étudiant en 1ère année de Multimédia et métiers de l’Internet à Montbéliard. J’ai réalisé ce site pour mon projet individuel de premier semestre. Le sujet étant la face caché du numérique, j’ai chois de me concentrer sur le réseau social Facebook. En effet, Facebook est un des réseaux sociaux les plus importants sur le Web et rejette donc une pollution numérique conséquente. Comme nous devions choisir un film, j’ai chosi The Social Network car il est le film le plus en lien avec mon sujet.</p>
 <h2>Formulaire</h2>
-Nom
-Prénom
-Adresse mail
-Votre message
+    <form  method="post">
+        <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="mail">e-mail :</label>
+            <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+            <label for="msg">Message :</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </div>
+    </form>
 <h2>Envoyer</h2>
 <h3> Les Autres projets</h3>
 <p>Si le projet vous a plu, voici plusieurs projets similaires au thème de la pollution numérique</p>
 
     <nav>
     <ul class="autres-projets">
-    <li><img src="img/galerie6.jpg">Cin&Science Felix Allaire</li>
-    <li><img src="img/ghost.jpg">Hyperconnexion Tania André</li>
-    <li><img src="img/galerie3.jpg">Black data Alexandre Antoine</li>
-    <li><img src="img/galerie4.jpg">WattOR:Thibaud Barrand</li>
-    <li><img src="img/searching.jpg">Pollution cachée Lena Bataillard</li>
-    <li><img src="img/park.jpg">South park dénonce Amazon Nathan Baumann</li>
-    <li><img src="img/code.jpg">Data code Nina Bellimo</li>
-    <li><img src="img/girlboss.jpg">Polluting girl Marine Beurier</li>
-    <li><img src="img/oeil.jpg" alt="">Pollution cachée des datas centers Raphaël Bonin</li>
-    <li><img src="img/galerie5.jpg">Data runner Mathis Botton</li>
-    <li><img src="img/hacker.jpg">Centhack Eva Bourquin</li>
+    <li><img src="img/La-création-de-Facebook/galerie6.jpg">Cin&Science Felix Allaire</li>
+    <li><img src="img/contact/ghost.jpg">Hyperconnexion Tania André</li>
+    <li><img src="img/La-création-de-Facebook/galerie3.jpg">Black data Alexandre Antoine</li>
+    <li><img src="img/La-création-de-Facebook/galerie4.jpg">WattOR:Thibaud Barrand</li>
+    <li><img src="img/contact/searching.jpg">Pollution cachée Lena Bataillard</li>
+    <li><img src="img/contact/park.jpg">South park dénonce Amazon Nathan Baumann</li>
+    <li><img src="img/contact/code.jpg">Data code Nina Bellimo</li>
+    <li><img src="img/contact/girlboss.jpg">Polluting girl Marine Beurier</li>
+    <li><img src="img/contact/oeil.jpg" alt="">Pollution cachée des datas centers Raphaël Bonin</li>
+    <li><img src="img/La-création-de-Facebook/galerie5.jpg">Data runner Mathis Botton</li>
+    <li><img src="img/contact/hacker.jpg">Centhack Eva Bourquin</li>
     </ul>
    </nav>
 
@@ -65,7 +76,7 @@ Votre message
     <p>Nathan Broglin A1</p>
     <p> Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
 
-    <img src="img/logoMMI.png" id="MMI">
+    <img src="img/all/logoMMI.png" id="MMI">
 </footer>
 
 </body>

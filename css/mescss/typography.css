@@ -16,7 +16,7 @@ a{
 
 }
 
-.autres-projets>li {
+.autres-projets>li>a {
     color: white;
     list-style-type: none;
 }

@@ -6,7 +6,7 @@ p{
 }
 
 h3,h2,h1,h3>a{
-    font-family: Barlow  Medium, sans-serif;
+    font-family: Barlow , sans-serif;
     color:#37A0F5;
     text-transform: uppercase;
 }
@@ -35,7 +35,7 @@ h3{
     font-size:18px;
 }
 .menu{
-    font-family:Barlow  Medium, sans-serif ;
+    font-family:Barlow  , sans-serif ;
     text-transform: uppercase;
 }
 
@@ -62,10 +62,7 @@ figcaption{
     font-size:12px;
 }
 
-.bou{
-    font-size:10px;
-}
 
 nav>h3{
-
+    font-size:18px;
 }

@@ -32,7 +32,7 @@ h2{
 }
 
 h3{
-    font-size:20px;
+    font-size:18px;
 }
 .menu{
     font-family:Barlow  Medium, sans-serif ;
@@ -60,4 +60,12 @@ figcaption{
 .fleche{
     font-family:Roboto, sans-serif;
     font-size:12px;
+}
+
+.bou{
+    font-size:10px;
+}
+
+nav>h3{
+
 }

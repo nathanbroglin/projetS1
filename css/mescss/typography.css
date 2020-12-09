@@ -1,14 +1,13 @@
 
-
 p{
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size:14px;
     color:white;
     line-height: 20px;
 }
 
 h3,h2,h1,h3>a{
-    font-family: Barlow , sans-serif;
+    font-family: 'Barlow ', sans-serif;
     color:#37A0F5;
     text-transform: uppercase;
 }

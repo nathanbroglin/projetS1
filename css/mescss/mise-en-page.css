@@ -91,6 +91,7 @@ nav>p{
     padding-left: 20px;
 }
 
-html{
-    overflow-x: hidden;
+html,body{
+    overflow-x:hidden;
+    position: relative
 }

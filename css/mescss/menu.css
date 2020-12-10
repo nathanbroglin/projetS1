@@ -100,7 +100,7 @@ background:radial-gradient(#4D5563,#010314) ;
 
 }
 .menu-open .menu li:last-of-type{
-    margin-top:150px;
+    margin-top: -40px;
     border-bottom: none;
 }
 .menu-open .menu li:first-of-type{
